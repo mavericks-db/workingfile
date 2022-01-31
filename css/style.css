@@ -1,0 +1,108 @@
+/* put comments here */
+
+body {
+    background-color: #C9CEC9;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: right;
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    margin-left: 0;
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+header a:link {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #C9CEC9;
+    text-decoration: underline;
+}
+
+header a:hover {
+    color: #C9CEC9;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+header a:active {
+    color: #C9CEC9;
+    text-decoration: underline;
+}
+
+.imgset1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    clear: both;
+    background-color:#C9CEC9;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-title  {
+    display: block;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.site-desc  {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author  {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.left   {
+    display: block;
+    margin-right: auto;
+}
+
+.right   {
+    display: block;
+    margin-left: auto;
+}
+
+footer {
+    text-align: center;
+    background-color:black;
+    color: #C9CEC9;
+    margin-top: 0;
+    margin-left: 0;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    font-size: 15px;
+}
